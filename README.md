@@ -7,11 +7,11 @@ Each phase will ultimately result in a working compiler phase which can interfac
 ## Installation:
 ##### - Use any IDE that runs Java language e.g. NetBeans, Eclipse, Intellij (preferred)
 ##### - Add Antlr plugin for intellij
-##### - Run your grammar (COOL.g4): Use (good.cl) to run `COOL` code with no errors, output tokens will be inserted into (good.cl-lex)
-Use (bad.cl) to run `COOL` code with errors, errors will be shown in console,
-  path for good file is: src/good.cl 
+##### - Run your grammar (COOL.g4): Use (goodLexer.cl) to run `COOL` code with no errors, output tokens will be inserted into (goodLexer.cl-lex)
+Use (badLexer.cl) to run `COOL` code with errors, errors will be shown in console,
+  path for good file is: Test Cases/goodLexer.cl
     
-  path for bad file is: src/bad.cl
+  path for bad file is: Test Cases/badLexer.cl
 
 
    change them from main file to run
