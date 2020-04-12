@@ -10,8 +10,9 @@ Each phase will ultimately result in a working compiler phase which can interfac
 ##### - Run your grammar (COOL.g4): Use (good.cl) to run `COOL` code with no errors, output tokens will be inserted into (good.cl-lex)
 Use (bad.cl) to run `COOL` code with errors, errors will be shown in console,
   path for good file is: src/good.cl 
-    ![good_Output](good.PNG)
+    
   path for bad file is: src/bad.cl
+  ![good_Output](good.PNG)
   ![bad_Output](bad.PNG)
 
    change them from main file to run
