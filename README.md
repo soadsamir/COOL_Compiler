@@ -19,12 +19,12 @@ Use (badLexer.cl) to run `COOL` code with errors, errors will be shown in consol
 ## Structure:
 #### **1) Lexical Analyzer:**
 ##### Describe the set of tokens for `COOL` in an appropriate input format and the analyzer generator will generate the tokens if the program has no errors in a file.cl-lex with the same name as input file (file.cl) or report an error. 
-![good](Test Cases/good.PNG)
+![good](good.PNG)
 
 
 ##### *Error reporting:*
 ERROR: line_number: Lexer: message to standard output and terminate the program. 
-![bad](Test Cases/bad.PNG)
+![bad](bad.PNG)
 
 #### **2) Parsing**
 
