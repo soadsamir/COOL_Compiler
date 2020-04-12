@@ -12,16 +12,17 @@ Use (bad.cl) to run `COOL` code with errors, errors will be shown in console,
   path for good file is: src/good.cl 
     
   path for bad file is: src/bad.cl
-  ![good_Output](good.PNG)
-  ![bad_Output](bad.PNG)
+
 
    change them from main file to run
 
 ## Structure:
 #### **1) Lexical Analyzer:**
 ##### Describe the set of tokens for `COOL` in an appropriate input format and the analyzer generator will generate the tokens if the program has no errors in a file.cl-lex with the same name as input file (file.cl) or report an error. 
+  ![good_Output](good.PNG)
 ##### *Error reporting:*
 ERROR: line_number: Lexer: message to standard output and terminate the program. 
+  ![bad_Output](bad.PNG)
 
 #### **2) Parsing**
 
