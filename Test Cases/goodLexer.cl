@@ -1,19 +1,25 @@
 class Main inherits IO {
-  main(): Object {{
-    out_string("Enter an integer greater-than or equal-to 0: ");
+    pal(s : String) : Bool {
+	if s.length() = 0
+	then true
+	else if s.length() = 1
+	then true
+	else if s.substr(0, 1) = s.substr(s.length() - 1, 1)
+	then pal(s.substr(1, s.length() -2))
+	else false
+	fi fi fi
+    };
 
-    let input: Int <- in_int() in
-      if input < 0 then
-        out_string("ERROR: Number must be greater-than or equal-to 0\n")
-      else {
-        out_string("The factorial of ").out_int(input);
-        out_string(" is ").out_int(factorial(input));
-        out_string("\n");
-      }
-      fi;
-  }};
+    i:Int;
 
-  factorial(num: Int): Int {
-    if num = 0 then 1 else num * factorial(num - 1) fi
-  };
+    main() : SELF_TYPE {
+	{
+        i <- ~1;
+	    out_string("enter a string\n");
+	    if pal(in_string())
+	    then out_string("It's palindrome\n")
+	    else out_string("It isn't a palindrome\n")
+	    fi;
+	}
+    };
 };
