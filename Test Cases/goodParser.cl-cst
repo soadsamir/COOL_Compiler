@@ -1,0 +1,1 @@
+(program (classDefiniton class Main inherits (type IO) { (globals (featureDefinition main ( ) : Object { (expr (term (value (featureCall out_string ( (exprList (expr (term (value "Hello, world!\n")))) ))))) }) ;) } ;))
