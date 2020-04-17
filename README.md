@@ -15,9 +15,15 @@ Use (badLexer.cl) to run `COOL` code with errors, errors will be shown in consol
 
 
    change them from main file to run
+   
+ ##### -Running Parser: Use (goodParser.cl-lex) to run `COOL` code with no errors, output will be inserted into (goodParser.cl-cst). Use (badParser.cl-lex) to run `COOL` code with errors, errors will be shown in console.
+Path for good file is: Test Cases/goodParser.cl-lex
+Path for bad file is: Test Cases/badParser.cl-lex
+Change them from main file to run.
 
 ## Structure:
 #### **1) Lexical Analyzer:**
+
 ##### Describe the set of tokens for `COOL` in an appropriate input format and the analyzer generator will generate the tokens if the program has no errors in a file.cl-lex with the same name as input file (file.cl) or report an error. 
 ![good](good.PNG)
 
@@ -27,6 +33,12 @@ ERROR: line_number: Lexer: message to standard output and terminate the program.
 ![bad](bad.PNG)
 
 #### **2) Parsing**
+
+#### Unserializing the tokens produced by the _lexer stage_ and to serialize the Concrete Syntax Tree (CST) produced by parser if the program has no errors in a file.cl-cst with the same name as input file (file.cl-lex) or report an error.
+![good](goodparser.PNG)
+
+##### *Error reporting:*
+![good](badparser.PNG)
 
 #### **3) Semantic analysis**
 
