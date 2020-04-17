@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7783571a-38a6-4e63-b92b-1c06e94782a7" name="Default Changelist" comment="Initial Commit: Basic Structure and Simple shape Classes.">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Cases/goodParser.cl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParsingErrorListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Cases/goodLexer.cl" beforeDir="false" afterPath="$PROJECT_DIR$/Test Cases/goodLexer.cl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/COOL.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/COOL.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/COOLBaseListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/COOLBaseVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/COOLLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/COOLLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/COOLLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/COOLListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/COOLParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/COOLVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/bad.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/good.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/good.cl-lex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/src/bad.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/src/good.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/src/good.cl-lex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bad.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/good.cl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/good.cl-lex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Compiler" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\So3ad\IdeaProjects\Compiler\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a34gAG2Ghqj46RlvGUX6Rfd6XH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/New folder (2)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="Compiler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7783571a-38a6-4e63-b92b-1c06e94782a7" name="Default Changelist" comment="" />
+      <created>1585951052441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585951052441</updated>
+      <workItem from="1585951058181" duration="1086000" />
+      <workItem from="1585952400749" duration="5652000" />
+      <workItem from="1585999567657" duration="6917000" />
+      <workItem from="1586009435300" duration="6233000" />
+      <workItem from="1586096122887" duration="133000" />
+      <workItem from="1586194326783" duration="583000" />
+      <workItem from="1586272379052" duration="1725000" />
+      <workItem from="1586348655165" duration="1268000" />
+      <workItem from="1586701701500" duration="2910000" />
+      <workItem from="1586706115972" duration="2521000" />
+      <workItem from="1586891535495" duration="654000" />
+      <workItem from="1586893884705" duration="1558000" />
+      <workItem from="1586895657869" duration="904000" />
+      <workItem from="1586962777096" duration="1843000" />
+      <workItem from="1587071781751" duration="796000" />
+      <workItem from="1587074289442" duration="1648000" />
+      <workItem from="1587076577662" duration="1289000" />
+      <workItem from="1587080317077" duration="1531000" />
+      <workItem from="1587082158264" duration="1448000" />
+      <workItem from="1587083967059" duration="1558000" />
+      <workItem from="1587085988840" duration="1610000" />
+      <workItem from="1587088013188" duration="895000" />
+      <workItem from="1587090184950" duration="1425000" />
+      <workItem from="1587150215740" duration="622000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit: Basic Structure and Simple shape Classes.">
+      <created>1586016351382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586016351382</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit: Basic Structure and Simple shape Classes.">
+      <created>1586706928209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586706928210</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit: Basic Structure and Simple shape Classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit: Basic Structure and Simple shape Classes." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="232" y="38" key="#Java" timestamp="1586013207543">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="232" y="38" key="#Java/0.0.1280.760@0.0.1280.760" timestamp="1586013207543" />
+    <state x="232" y="38" key="#Project_Structure" timestamp="1587083759507">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="232" y="38" key="#Project_Structure/0.0.1280.760@0.0.1280.760" timestamp="1587083759507" />
+    <state x="85" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586702936327">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="85" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1586702936327" />
+    <state x="409" y="183" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587087055925">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="409" y="183" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760@0.0.1280.760" timestamp="1587087055925" />
+    <state x="360" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585999825500">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="360" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.760@0.0.1280.760" timestamp="1585999825500" />
+    <state x="370" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587085404807">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="370" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760@0.0.1280.760" timestamp="1587085404807" />
+    <state x="320" y="24" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1587075509021">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="320" y="24" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1280.760@0.0.1280.760" timestamp="1587075509021" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586706973668">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586706973668" />
+    <state x="420" y="134" key="FileChooserDialogImpl" timestamp="1587085067263">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="420" y="134" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1587085067263" />
+    <state x="510" y="273" key="Github.ShareDialog" timestamp="1586016392524">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="510" y="273" key="Github.ShareDialog/0.0.1280.760@0.0.1280.760" timestamp="1586016392524" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1587091282354">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1587091282354" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1587091282353">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1587091282353" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1587091282353">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1587091282353" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1587091282354">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1587091282354" />
+    <state width="1237" height="5" key="GridCell.Tab.1.bottom" timestamp="1586006595313">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="5" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586006595313" />
+    <state width="1237" height="5" key="GridCell.Tab.1.center" timestamp="1586006595313">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="5" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1586006595313" />
+    <state width="1237" height="5" key="GridCell.Tab.1.left" timestamp="1586006595313">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="5" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1586006595313" />
+    <state width="1237" height="5" key="GridCell.Tab.1.right" timestamp="1586006595313">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="5" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1586006595313" />
+    <state x="352" y="96" key="MultipleFileMergeDialog" timestamp="1586707064147">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="352" y="96" key="MultipleFileMergeDialog/0.0.1280.760@0.0.1280.760" timestamp="1586707064147" />
+    <state x="141" y="22" key="SettingsEditor" timestamp="1586015743627">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="141" y="22" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1586015743627" />
+    <state x="232" y="113" key="Vcs.Push.Dialog.v2" timestamp="1586706991337">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="232" y="113" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1586706991337" />
+    <state x="336" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1587150225341">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="336" y="204" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1587150225341" />
+    <state x="290" y="69" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585952964088">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="290" y="69" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.760@0.0.1280.760" timestamp="1585952964088" />
+    <state x="449" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586963788201">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="449" y="297" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.760@0.0.1280.760" timestamp="1586963788201" />
+    <state x="22" y="0" key="new project wizard" timestamp="1586706218891">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="22" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1586706218891" />
+    <state x="444" y="69" key="svn.repositoryBrowser" timestamp="1586010294497">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="444" y="69" key="svn.repositoryBrowser/0.0.1280.760@0.0.1280.760" timestamp="1586010294497" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Compiler$main.ic" NAME="main Coverage Results" MODIFIED="1586001635906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
