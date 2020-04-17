@@ -35,10 +35,10 @@ ERROR: line_number: Lexer: message to standard output and terminate the program.
 #### **2) Parsing**
 
 #### Unserializing the tokens produced by the _lexer stage_ and to serialize the Concrete Syntax Tree (CST) produced by parser if the program has no errors in a file.cl-cst with the same name as input file (file.cl-lex) or report an error.
-![good](goodparser.PNG)
+![good](goodparser.jpeg)
 
 ##### *Error reporting:*
-![good](badparser.PNG)
+![good](badparser.jpeg)
 
 #### **3) Semantic analysis**
 
