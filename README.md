@@ -8,15 +8,12 @@ Each phase will ultimately result in a working compiler phase which can interfac
 ##### - Use any IDE that runs Java language e.g. NetBeans, Eclipse, Intellij (preferred)
 ##### - Add Antlr plugin for intellij
 ##### - Run your grammar (COOL.g4): Use (goodLexer.cl) to run `COOL` code with no errors, output tokens will be inserted into (goodLexer.cl-lex)
-Use (badLexer.cl) to run `COOL` code with errors, errors will be shown in console,
-  path for good file is: Test Cases/goodLexer.cl
-    
-  path for bad file is: Test Cases/badLexer.cl
-
-
-   change them from main file to run
+Use (badLexer.cl) to run `COOL` code with errors, errors will be shown in console.
+Path for good file is: Test Cases/goodLexer.cl
+Path for bad file is: Test Cases/badLexer.cl
+Change them from main file to run
    
- ##### -Running Parser: Use (goodParser.cl-lex) to run `COOL` code with no errors, output will be inserted into (goodParser.cl-cst). Use (badParser.cl-lex) to run `COOL` code with errors, errors will be shown in console.
+##### -Running Parser: Use (goodParser.cl-lex) to run `COOL` code with no errors, output will be inserted into (goodParser.cl-cst). Use (badParser.cl-lex) to run `COOL` code with errors, errors will be shown in console.
 Path for good file is: Test Cases/goodParser.cl-lex
 Path for bad file is: Test Cases/badParser.cl-lex
 Change them from main file to run.
@@ -34,7 +31,11 @@ ERROR: line_number: Lexer: message to standard output and terminate the program.
 
 #### **2) Parsing**
 
-#### Unserializing the tokens produced by the _lexer stage_ and to serialize the Concrete Syntax Tree (CST) produced by parser if the program has no errors in a file.cl-cst with the same name as input file (file.cl-lex) or report an error.
+##### **Testing**
+To test a grammar rule in (COOL.g4) file and assure syntax tree is produced. 
+![tree](tree.jpeg)
+
+##### Unserializing the tokens produced by the _lexer stage_ and to serialize the Concrete Syntax Tree (CST) produced by parser if the program has no errors in a file.cl-cst with the same name as input file (file.cl-lex) or report an error.
 ![good](goodparser.jpeg)
 
 ##### *Error reporting:*
