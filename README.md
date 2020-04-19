@@ -32,7 +32,7 @@ ERROR: line_number: Lexer: message to standard output and terminate the program.
 
 #### **2) Parsing**
 
-##### **Testing**
+## Testing
 To test a grammar rule in (COOL.g4) file and assure syntax tree is produced. 
 ![tree](tree.jpeg)
 
@@ -46,7 +46,7 @@ To test a grammar rule in (COOL.g4) file and assure syntax tree is produced.
 
 #### **4) Code generation**
 
-#### **Documentation**
+## Documentation
 
 ##### We used _**Doxygen**_ for documentation. _**Doxygen**_ extracts documentation from source file comments. In addition to the Javadoc syntax, _**Doxygen**_ supports the documentation tags used in the Qt toolkit and can generate output in HyperText Markup Language (HTML) as well as in Microsoft Compiled HTML Help (CHM), Rich Text Format (RTF), Portable Document Format (PDF), LaTeX, PostScript or man pages. Programming languages supported by _**Doxygen**_ include _C_, _C++_, _C#_, _D_, _Fortran_, _IDL_, _Java_, _Objective-C_, _Perl_, _PHP_, _Python_, _Tcl_ and _VHDL_. Other languages can be supported with additional code.
 
